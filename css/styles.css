@@ -8,8 +8,21 @@ h1 {
 	font-family: 'Bebas Neue', cursive;
 }
 
+h2 {
+	font-size: 2em;
+	margin-bottom: auto;
+	color: #844a4a;
+	font-family: 'Bebas Neue', cursive;
+}
+
 .wrapper {
 	display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+.wrapper > div {
+	text-align: center;
+    background: white;
+    padding: 40px;
 }
